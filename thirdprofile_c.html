@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 300px;
+    gap: 20px;
+    justify-content: stretch;
+
+}
+.grid-container>div {
+    display: flex;
+    background-color:  aliceblue;
+    text-align: center;  
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+}
+.ab{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.ab * {
+    width: 49%;
+    border: 2px solid blue;
+}
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="grid-container">
+            <div class="ab">
+                <div class="a">a</div>
+                <div class="b">b</div>
+                <div class="a">c</div>
+                <div class="b">d</div>
+                <div class="a">e</div>
+                <div class="b">f</div>
+            </div>
+    </div>
+
+
+
+    
+</body>
+</html>
